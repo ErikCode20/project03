@@ -1,0 +1,64 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(35, 126, 217);
+}
+
+img {
+  height: 175px;
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size:65px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color:white;
+}
+
+table {
+  border-collapse: collapse;
+  border: 5px solid rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+td, th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px 20px;
+  background-color: gray;
+  text-align: center;
+}
+
+.container-1 {
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: grey;
+    width: 526px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  width: 200px;
+  height: 60px;
+  font-size: 10px;
+  border: black 4px solid;
+}
+
+a:focus, button:focus, input:focus {
+  outline: 2px solid rgb(0, 76, 255);
+}
+
+
